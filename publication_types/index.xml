@@ -5,12 +5,20 @@
     <link>https://juanpablos.github.io/publication_types/</link>
       <atom:link href="https://juanpablos.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 13 Oct 2019 00:00:00 -0300</lastBuildDate>
     <image>
       <url>https://juanpablos.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
       <link>https://juanpablos.github.io/publication_types/</link>
     </image>
+    
+    <item>
+      <title>9</title>
+      <link>https://juanpablos.github.io/publication_types/9/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/publication_types/9/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

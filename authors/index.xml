@@ -5,12 +5,60 @@
     <link>https://juanpablos.github.io/authors/</link>
       <atom:link href="https://juanpablos.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 13 Oct 2019 00:00:00 -0300</lastBuildDate>
     <image>
       <url>https://juanpablos.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://juanpablos.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Egor Kostylev</title>
+      <link>https://juanpablos.github.io/authors/egor-kostylev/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/authors/egor-kostylev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jorge Pérez</title>
+      <link>https://juanpablos.github.io/authors/jorge-perez/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/authors/jorge-perez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Juan Reutter</title>
+      <link>https://juanpablos.github.io/authors/juan-reutter/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/authors/juan-reutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Juan-Pablo Silva</title>
+      <link>https://juanpablos.github.io/authors/juan-pablo-silva/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/authors/juan-pablo-silva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mikaël Monet</title>
+      <link>https://juanpablos.github.io/authors/mikael-monet/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/authors/mikael-monet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pablo Barceló</title>
+      <link>https://juanpablos.github.io/authors/pablo-barcelo/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/authors/pablo-barcelo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
