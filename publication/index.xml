@@ -5,7 +5,7 @@
     <link>https://juanpablos.github.io/publication/</link>
       <atom:link href="https://juanpablos.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 13 Oct 2019 00:00:00 -0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 19 Dec 2019 00:00:00 -0300</lastBuildDate>
     <image>
       <url>https://juanpablos.github.io/img/icon-192.png</url>
       <title>Publications</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>The Logical Expressiveness of Graph Neural Networks</title>
+      <link>https://juanpablos.github.io/publication/iclr20-logic/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 -0300</pubDate>
+      <guid>https://juanpablos.github.io/publication/iclr20-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Logical Expressiveness of Graph Neural Networks</title>
-      <link>https://juanpablos.github.io/publication/neurips19-logic/</link>
+      <link>https://juanpablos.github.io/publication/glr19-logic/</link>
       <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
-      <guid>https://juanpablos.github.io/publication/neurips19-logic/</guid>
+      <guid>https://juanpablos.github.io/publication/glr19-logic/</guid>
       <description></description>
     </item>
     

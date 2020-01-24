@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Aprende tópicos avanzados de Python como herencia multi-clase, super clases virtuales y metaclases.">
+  <meta name="description" content="The ability of graph neural networks (GNNs) for distinguishing nodes in graphs has been recently characterized in terms of the Weisfeiler-Lehman (WL) test for checking graph isomorphism. This characterization, however, does not settle the issue of which Boolean node classifiers (i.e., functions classifying nodes in graphs as true or  false) can be expressed by GNNs.  We tackle this problem by focusing on Boolean classifiers expressible as formulas in the logic FOC2, a well-studied fragment of first order logic. FOC2 is tightly related to the WL test, and hence to GNNs. We start by studying a popular class of GNNs, which we call AC-GNNs, in which the features of each node in the graph are updated, in successive layers, only in terms of the features of its neighbors.  We show that this class of GNNs is too weak to capture all FOC2 classifiers, and provide a syntactic characterization of  the largest subclass of FOC2 classifiers that can be captured by AC-GNNs. This subclass coincides with a logic heavily used by the knowledge representation community. We then look at what needs to be added to AC-GNNs for capturing all FOC2 classifiers. We show that it suffices to add readout functions, which allow to update the features of a node not only in terms of its neighbors, but also in terms of a global attribute vector. We call GNNs of this kind ACR-GNNs. We experimentally validate our findings showing that, on synthetic data conforming to FOC2 formulas, AC-GNNs struggle to fit the training data while ACR-GNNs can generalize even to graphs of sizes not seen during training.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://juanpablos.github.io/talk/2019-09-02-python/">
+  <link rel="alternate" hreflang="en-us" href="https://juanpablos.github.io/publication/iclr20-logic/">
 
   
 
@@ -99,7 +99,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://juanpablos.github.io/talk/2019-09-02-python/">
+  <link rel="canonical" href="https://juanpablos.github.io/publication/iclr20-logic/">
 
   
   
@@ -115,23 +115,28 @@
   <meta property="twitter:creator" content="@jivensjp">
   
   <meta property="og:site_name" content="Juan-Pablo Silva">
-  <meta property="og:url" content="https://juanpablos.github.io/talk/2019-09-02-python/">
-  <meta property="og:title" content="Advanced Python: the most pretentious title you will hear today (In Spanish) | Juan-Pablo Silva">
-  <meta property="og:description" content="Aprende tópicos avanzados de Python como herencia multi-clase, super clases virtuales y metaclases."><meta property="og:image" content="https://juanpablos.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://juanpablos.github.io/publication/iclr20-logic/">
+  <meta property="og:title" content="The Logical Expressiveness of Graph Neural Networks | Juan-Pablo Silva">
+  <meta property="og:description" content="The ability of graph neural networks (GNNs) for distinguishing nodes in graphs has been recently characterized in terms of the Weisfeiler-Lehman (WL) test for checking graph isomorphism. This characterization, however, does not settle the issue of which Boolean node classifiers (i.e., functions classifying nodes in graphs as true or  false) can be expressed by GNNs.  We tackle this problem by focusing on Boolean classifiers expressible as formulas in the logic FOC2, a well-studied fragment of first order logic. FOC2 is tightly related to the WL test, and hence to GNNs. We start by studying a popular class of GNNs, which we call AC-GNNs, in which the features of each node in the graph are updated, in successive layers, only in terms of the features of its neighbors.  We show that this class of GNNs is too weak to capture all FOC2 classifiers, and provide a syntactic characterization of  the largest subclass of FOC2 classifiers that can be captured by AC-GNNs. This subclass coincides with a logic heavily used by the knowledge representation community. We then look at what needs to be added to AC-GNNs for capturing all FOC2 classifiers. We show that it suffices to add readout functions, which allow to update the features of a node not only in terms of its neighbors, but also in terms of a global attribute vector. We call GNNs of this kind ACR-GNNs. We experimentally validate our findings showing that, on synthetic data conforming to FOC2 formulas, AC-GNNs struggle to fit the training data while ACR-GNNs can generalize even to graphs of sizes not seen during training."><meta property="og:image" content="https://juanpablos.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://juanpablos.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-09-02T16:45:00-03:00">
+      <meta property="article:published_time" content="2019-12-19T00:00:00-03:00">
     
-    <meta property="article:modified_time" content="2019-09-02T16:45:00-03:00">
+    <meta property="article:modified_time" content="2019-12-19T00:00:00-03:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
+
+
 
 
 
@@ -139,39 +144,48 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://juanpablos.github.io/talk/2019-09-02-python/"
+    "@id": "https://juanpablos.github.io/publication/iclr20-logic/"
   },
-  "name": "Advanced Python: the most pretentious title you will hear today (In Spanish)",
+  "headline": "The Logical Expressiveness of Graph Neural Networks",
   
+  "datePublished": "2019-12-19T00:00:00-03:00",
+  "dateModified": "2019-12-19T00:00:00-03:00",
   
-  "startDate": "2019-09-02T16:45:00-03:00",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
-    "name": "Juan-Pablo Silva"
+    "name": "Pablo Barceló"
   },
   
-  "description": "Aprende tópicos avanzados de Python como herencia multi-clase, super clases virtuales y metaclases."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Juan-Pablo Silva",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://juanpablos.github.io/img/icon-512.png"
+    }
+  },
+  "description": "The ability of graph neural networks (GNNs) for distinguishing nodes in graphs has been recently characterized in terms of the Weisfeiler-Lehman (WL) test for checking graph isomorphism. This characterization, however, does not settle the issue of which Boolean node classifiers (i.e., functions classifying nodes in graphs as true or  false) can be expressed by GNNs.  We tackle this problem by focusing on Boolean classifiers expressible as formulas in the logic FOC2, a well-studied fragment of first order logic. FOC2 is tightly related to the WL test, and hence to GNNs. We start by studying a popular class of GNNs, which we call AC-GNNs, in which the features of each node in the graph are updated, in successive layers, only in terms of the features of its neighbors.  We show that this class of GNNs is too weak to capture all FOC2 classifiers, and provide a syntactic characterization of  the largest subclass of FOC2 classifiers that can be captured by AC-GNNs. This subclass coincides with a logic heavily used by the knowledge representation community. We then look at what needs to be added to AC-GNNs for capturing all FOC2 classifiers. We show that it suffices to add readout functions, which allow to update the features of a node not only in terms of its neighbors, but also in terms of a global attribute vector. We call GNNs of this kind ACR-GNNs. We experimentally validate our findings showing that, on synthetic data conforming to FOC2 formulas, AC-GNNs struggle to fit the training data while ACR-GNNs can generalize even to graphs of sizes not seen during training."
 }
 </script>
 
   
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Advanced Python: the most pretentious title you will hear today (In Spanish) | Juan-Pablo Silva</title>
+
+
+  <title>The Logical Expressiveness of Graph Neural Networks | Juan-Pablo Silva</title>
 
 </head>
 
@@ -504,7 +518,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Advanced Python: the most pretentious title you will hear today (In Spanish)</h1>
+  <h1>The Logical Expressiveness of Graph Neural Networks</h1>
 
   
 
@@ -517,7 +531,28 @@
 
   
   
+  
+  
+  <div>
+    
 
+
+
+  
+  <span><a href="/authors/pablo-barcelo/">Pablo Barceló</a></span>, <span><a href="/authors/egor-v.-kostylev/">Egor V. Kostylev</a></span>, <span><a href="/authors/mikael-monet/">Mikael Monet</a></span>, <span><a href="/authors/jorge-perez/">Jorge Pérez</a></span>, <span><a href="/authors/juan-reutter/">Juan Reutter</a></span>, <span><a href="/authors/juan-pablo-silva/">Juan-Pablo Silva</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December 2019
+  </span>
   
 
   
@@ -544,7 +579,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://juanpablos.github.io/talk/2019-09-02-python/&amp;text=Advanced%20Python:%20the%20most%20pretentious%20title%20you%20will%20hear%20today%20%28In%20Spanish%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://juanpablos.github.io/publication/iclr20-logic/&amp;text=The%20Logical%20Expressiveness%20of%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -557,7 +592,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://juanpablos.github.io/talk/2019-09-02-python/&amp;t=Advanced%20Python:%20the%20most%20pretentious%20title%20you%20will%20hear%20today%20%28In%20Spanish%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://juanpablos.github.io/publication/iclr20-logic/&amp;t=The%20Logical%20Expressiveness%20of%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -570,7 +605,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Advanced%20Python:%20the%20most%20pretentious%20title%20you%20will%20hear%20today%20%28In%20Spanish%29&amp;body=https://juanpablos.github.io/talk/2019-09-02-python/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=The%20Logical%20Expressiveness%20of%20Graph%20Neural%20Networks&amp;body=https://juanpablos.github.io/publication/iclr20-logic/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -583,7 +618,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://juanpablos.github.io/talk/2019-09-02-python/&amp;title=Advanced%20Python:%20the%20most%20pretentious%20title%20you%20will%20hear%20today%20%28In%20Spanish%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://juanpablos.github.io/publication/iclr20-logic/&amp;title=The%20Logical%20Expressiveness%20of%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -596,7 +631,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Advanced%20Python:%20the%20most%20pretentious%20title%20you%20will%20hear%20today%20%28In%20Spanish%29%20https://juanpablos.github.io/talk/2019-09-02-python/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=The%20Logical%20Expressiveness%20of%20Graph%20Neural%20Networks%20https://juanpablos.github.io/publication/iclr20-logic/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -609,7 +644,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://juanpablos.github.io/talk/2019-09-02-python/&amp;title=Advanced%20Python:%20the%20most%20pretentious%20title%20you%20will%20hear%20today%20%28In%20Spanish%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://juanpablos.github.io/publication/iclr20-logic/&amp;title=The%20Logical%20Expressiveness%20of%20Graph%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -653,7 +688,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/talks/slides.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/forum?id=r1lZ7AEKvB" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -664,7 +699,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="/talks/slides.ipynb" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/juanpablos/GNN-logic" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -674,14 +709,6 @@
 
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/talks/slides.html" target="_blank" rel="noopener">
-  Slides
-</a>
 
 
 
@@ -700,48 +727,48 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Python es uno de los lenguajes más usados en el mundo, muchos lo aprenden en la universidad, otros por algún proyecto, sin embargo, Python tiene mucha más funcionalidad que la superficial que todos vemos en el día a día. Tópicos como decoradores, sobrecarga de operadores, herencia multi clase, super clases virtuales, metaclases y más, son comúnmente ignorados. Ven a una demostración de estas características del lenguaje y sube de nivel!</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The ability of graph neural networks (GNNs) for distinguishing nodes in graphs has been recently characterized in terms of the Weisfeiler-Lehman (WL) test for checking graph isomorphism. This characterization, however, does not settle the issue of which Boolean node classifiers (i.e., functions classifying nodes in graphs as true or  false) can be expressed by GNNs.  We tackle this problem by focusing on Boolean classifiers expressible as formulas in the logic FOC2, a well-studied fragment of first order logic. FOC2 is tightly related to the WL test, and hence to GNNs. We start by studying a popular class of GNNs, which we call AC-GNNs, in which the features of each node in the graph are updated, in successive layers, only in terms of the features of its neighbors.  We show that this class of GNNs is too weak to capture all FOC2 classifiers, and provide a syntactic characterization of  the largest subclass of FOC2 classifiers that can be captured by AC-GNNs. This subclass coincides with a logic heavily used by the knowledge representation community. We then look at what needs to be added to AC-GNNs for capturing all FOC2 classifiers. We show that it suffices to add readout functions, which allow to update the features of a node not only in terms of its neighbors, but also in terms of a global attribute vector. We call GNNs of this kind ACR-GNNs. We experimentally validate our findings showing that, on synthetic data conforming to FOC2 formulas, AC-GNNs struggle to fit the training data while ACR-GNNs can generalize even to graphs of sizes not seen during training.</p>
     
 
+    
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            Sep 2, 2019 4:45 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            <a href="https://www.cadcc.cl/semana-computina-miercoles-2-de-octubre/" target="_blank" rel="noopener">
-            Ramón Picarte Auditorium, Beauchef 851, Santiago, Chile
+            
+            
+            <a href="/publication/#1">
+              Conference paper
             </a>
+            
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
     <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>International Conference on Learning Representations (ICLR) 2020</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <p>For the best experience, download the slides&rsquo; code and open them with <a href="https://jupyter-notebook.readthedocs.io/en/stable/" target="_blank">Jupyter Notebook</a> so you can execute the code cells. You can also install <a href="https://rise.readthedocs.io/en/maint-5.5/" target="_blank">RISE</a> to see them as a slideshow.</p>
-
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -756,108 +783,28 @@
 
 
   
-
-
-
-
-
-
-  
-  
   
     
+  
+  
+
+
+
+
+
+
+  
+  
   
   
   <div class="media author-card">
     
-      
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu0200409964dc40799cae6cbeda12c48a_839915_250x250_fill_lanczos_center_2.png" alt="Avatar">
-    
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://juanpablos.github.io/">Juan-Pablo Silva</a></h5>
-      <h6 class="card-subtitle">MSc Student</h6>
-      <p class="card-text">I am a Master&rsquo;s student at the University of Chile, interested in Data Science and Machine Learning. When not in front of my computer I am reading, studying Japanese or building mechanical keyboards.</p>
+      <h5 class="card-title"><a href="/authors/pablo-barcelo/"></a></h5>
+      
+      
       <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:jpsilva@dcc.uchile.cl" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/jivensjp" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?hl=en&amp;user=g-yIdlAAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/juanpablos" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/files/cv.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
   
 </ul>
 

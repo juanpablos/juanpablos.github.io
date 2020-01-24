@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mikaël Monet | Juan-Pablo Silva</title>
-    <link>https://juanpablos.github.io/authors/mikael-monet/</link>
-      <atom:link href="https://juanpablos.github.io/authors/mikael-monet/index.xml" rel="self" type="application/rss+xml" />
-    <description>Mikaël Monet</description>
+    <title>1 | Juan-Pablo Silva</title>
+    <link>https://juanpablos.github.io/publication_types/1/</link>
+      <atom:link href="https://juanpablos.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 19 Dec 2019 00:00:00 -0300</lastBuildDate>
     <image>
       <url>https://juanpablos.github.io/img/icon-192.png</url>
-      <title>Mikaël Monet</title>
-      <link>https://juanpablos.github.io/authors/mikael-monet/</link>
+      <title>1</title>
+      <link>https://juanpablos.github.io/publication_types/1/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://juanpablos.github.io/publication/iclr20-logic/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 -0300</pubDate>
       <guid>https://juanpablos.github.io/publication/iclr20-logic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Logical Expressiveness of Graph Neural Networks</title>
-      <link>https://juanpablos.github.io/publication/glr19-logic/</link>
-      <pubDate>Sun, 13 Oct 2019 00:00:00 -0300</pubDate>
-      <guid>https://juanpablos.github.io/publication/glr19-logic/</guid>
       <description></description>
     </item>
     
